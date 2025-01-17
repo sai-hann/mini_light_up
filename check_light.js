@@ -69,7 +69,7 @@ for(let j=0; j<current_time.length; j++)
     let bigger_times = times[1];
     
 
-    if(time >= smaller_times&& time<=bigger_times)
+    if(time >= smaller_times&& time<bigger_times)
     {
         console.log(smaller_times);
         console.log(bigger_times);
