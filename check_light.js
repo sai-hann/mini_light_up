@@ -94,13 +94,14 @@ for(let j=0; j<current_time.length; j++)
     if(time > bigger_times)
     {
         
-        if(j==2)
+        if(j==current_time.length-1)
         {
             next_time = 1;
             next_string = "မနက်ဖြန် မနက် "+next_time +" နာရီ";
         }
         else
         {
+            
             let temp = current_time[j+1].split("-");
             next_time = temp[0];
             next_string = (next_time%12)+" နာရီ";
